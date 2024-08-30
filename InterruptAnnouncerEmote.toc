@@ -3,4 +3,4 @@
 ## Notes: Announces your successful interrupts to EMOTE
 ## Title: InterruptAnnouncerEmote
 ## Version: 1.0
-InterruptAnnouncerE.lua
+InterruptAnnouncerEmote.lua
