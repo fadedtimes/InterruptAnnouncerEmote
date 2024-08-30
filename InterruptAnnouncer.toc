@@ -1,6 +1,6 @@
-## Author: Shauren
-## Interface: 110000, 110002
-## Notes: Announces your successful interrupts to party/raid
-## Title: InterruptAnnouncer
+## Author: fadedtimes
+## Interface: 110002
+## Notes: Announces your successful interrupts to EMOTE
+## Title: InterruptAnnouncerEmote
 ## Version: 1.0
-InterruptAnnouncer.lua
+InterruptAnnouncerE.lua
