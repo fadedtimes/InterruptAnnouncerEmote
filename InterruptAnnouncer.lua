@@ -48,11 +48,11 @@ interr:SetScript("OnEvent", function(self, event, ...)
             end
 
             if (GetNumGroupMembers() > 0) then
-                local msgType = "PARTY";
+                local msgType = "EMOTE";
                 if ((IsInGroup(LE_PARTY_CATEGORY_INSTANCE) or IsInRaid(LE_PARTY_CATEGORY_INSTANCE)) and (InstanceType == "party" or InstanceType == "raid" or InstanceType == "pvp" or InstanceType == "scenario")) then -- Dungeon/Raid Finder/Battleground
-                    msgType = "INSTANCE_CHAT";
+                    msgType = "EMOTE";
                 elseif (IsInRaid(LE_PARTY_CATEGORY_HOME)) then
-                    msgType = "RAID";
+                    msgType = "EMOTE";
                 end
 
                 SendChatMessage(msg, msgType);
